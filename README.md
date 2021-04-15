@@ -120,17 +120,17 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: <DomainNameOne>
+  - host: javaapp.hermannkeith.net
     http:
       paths:
       - backend:
-          serviceName: <serviceNameOne>
+          serviceName: javawebapp
           servicePort: 80
-  - host: <DomainNameTwo>
+  - host: springapp.hermannkeith.net
     http:
       paths:
       - backend:
-          serviceName: <serviceNamTwo>
+          serviceName: springapp
           servicePort: 80	
 ``` 		  
 
